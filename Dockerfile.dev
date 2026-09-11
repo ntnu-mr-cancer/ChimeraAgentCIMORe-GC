@@ -1,0 +1,26 @@
+FROM vllm/vllm-openai:v0.25.0-cu129
+
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /bin/uv
+
+ENV PYTHONUNBUFFERED=1
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        ffmpeg \
+        git \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /opt/app
+
+# 1. Copy the lockfile & project definition
+COPY requirements.txt pyproject.toml /opt/app/
+
+# 2. Install dependencies and explicitly purge torchcodec
+RUN uv pip install --system \
+        -r requirements.txt \
+        pytest ruff debugpy ipython \
+    && uv pip uninstall --system -y torchcodec || true
+
+WORKDIR /workspace
+
+ENTRYPOINT []
+CMD ["bash"]

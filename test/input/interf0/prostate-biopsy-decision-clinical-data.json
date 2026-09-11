@@ -1,0 +1,98 @@
+{
+    "psa_trend": [
+        {
+            "val": 3.0,
+            "date": "Aug 2022"
+        },
+        {
+            "val": 2.5,
+            "date": "Nov 2023"
+        },
+        {
+            "val": 5.2,
+            "date": "Jan 2025"
+        }
+    ],
+    "family_history": "No",
+    "previous_notes": [
+        {
+            "date": "08 Feb 2023",
+            "text": "An initial PSA reading of 2.2 ng/mL was recorded in August 2022. Subsequent testing in December revealed an increase to 3.8 ng/mL. Digital rectal examination remained unremarkable.",
+            "author": "Dr. T. Hendriks (GP)"
+        },
+        {
+            "date": "02 Jun 2024",
+            "text": "Following the first biopsy results, PSA levels advanced to 4.2 ng/mL. Mild urinary frequency is reported, without notable obstruction. Persistent biochemical elevation and the earlier histological findings were documented.",
+            "author": "Dr. T. Hendriks (GP)"
+        }
+    ],
+    "radiology_report": "Multiparametric MRI Prostate | 15 January 2025 | Amsterdam UMC, AMC\n\nClinical context: Ascending PSA (5.2 ng/mL) alongside a previously documented positive biopsy bucket. Prior imaging carried a PI-RADS 4 designation.\n\nFINDINGS: Prostate volume registers at 34.49 mL. A discrete hypointense focus occupies the right anterior mid-gland, spanning roughly 12 x 9 x 10 mm on T2-weighted sequences. DWI shows pronounced restricted diffusion paired with notably low ADC values. Early focal enhancement characterizes the DCE sequences. The peripheral zone remains clear. Extraprostatic extension and seminal vesicle invasion are absent. Pelvic lymphadenopathy is not present.\n\nIMPRESSION: PI-RADS 4 lesion in the right anterior mid-gland. Prostate volume 34.49 mL. PSAD 0.151 ng/mL/mL. csPCa predicted probability 0.5618297.",
+    "laboratory_results": [
+        {
+            "val": "5.2 ng/mL",
+            "date": "30 Dec 2024",
+            "flag": "H",
+            "name": "PSA"
+        },
+        {
+            "val": "1.24 ng/mL",
+            "date": "30 Dec 2024",
+            "flag": "",
+            "name": "Free PSA"
+        },
+        {
+            "val": "24%",
+            "date": "30 Dec 2024",
+            "flag": "",
+            "name": "%Free PSA"
+        },
+        {
+            "val": "12.4 g/dL",
+            "date": "30 Dec 2024",
+            "flag": "L",
+            "name": "Haemoglobin"
+        },
+        {
+            "val": "9.1 x10^9/L",
+            "date": "30 Dec 2024",
+            "flag": "",
+            "name": "WBC"
+        },
+        {
+            "val": "258 x10^9/L",
+            "date": "30 Dec 2024",
+            "flag": "",
+            "name": "Platelets"
+        },
+        {
+            "val": "88 umol/L",
+            "date": "30 Dec 2024",
+            "flag": "",
+            "name": "Creatinine"
+        },
+        {
+            "val": ">60 mL/min/1.73m2",
+            "date": "30 Dec 2024",
+            "flag": "",
+            "name": "eGFR"
+        },
+        {
+            "val": "17.7 nmol/L",
+            "date": "30 Dec 2024",
+            "flag": "",
+            "name": "Testosterone"
+        },
+        {
+            "val": "69 U/L",
+            "date": "30 Dec 2024",
+            "flag": "",
+            "name": "Alkaline phosphatase"
+        },
+        {
+            "val": "209 U/L",
+            "date": "30 Dec 2024",
+            "flag": "",
+            "name": "LDH"
+        }
+    ]
+}

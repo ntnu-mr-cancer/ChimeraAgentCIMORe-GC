@@ -1,0 +1,79 @@
+# =============================================================================
+# Chimera Agent Baseline — default config.
+#
+# All parameters live here, not in code.
+# Override per-experiment with +experiment=name or bare key=value on the CLI.
+#
+#   make run                                                 # all tasks under data/
+#   make run RUN_ARGS="agent.tasks=[2]"                      # just task 2
+#   make run RUN_ARGS="model.model_id=google/gemma-4-E2B-it" # swap model
+#   make run RUN_ARGS="agent.limit=5"                        # first 5 cases per task
+# =============================================================================
+
+defaults:
+  - _self_
+
+# --- Model ---
+# provider=vllm   -- in-process inference via vLLM (the GC container path).
+# provider=openai -- any OpenAI-compatible HTTP endpoint (llama.cpp server,
+#                    vLLM OpenAI server, OpenAI itself). Set base_url and
+#                    optionally api_key_env.
+model:
+  provider: vllm
+  model_id: google/gemma-4-E2B-it
+  embedding_model_id: google/embeddinggemma-300m
+  # vLLM tool-call parser — must match the model's function-calling format.
+  # Ignored when provider=openai (the server speaks the protocol natively).
+  # Common values: gemma4, hermes, llama, mistral, pythonic.
+  tool_parser: gemma4
+  # OpenAI-compatible server settings (used only when provider=openai).
+  base_url: null                # e.g. http://127.0.0.1:8765/v1
+  api_key_env: LLAMA_API_KEY    # env var holding the bearer token
+  request_timeout: 600
+
+# --- Paths ---
+# All paths default to their standard local repository locations.
+# Models dynamically resolve to their model_id, allowing HF / vLLM to fetch
+# them directly from $HF_HOME (remember to set this in .env or ~./bashrc).
+paths:
+  data_root: data
+  output_dir: test/output
+  resource_dir: resources
+  model_dir: /opt/ml/model/llm #${model.model_id}
+  embedding_model_dir: resources/embedding_model #${model.embedding_model_id}
+
+# --- Agent ---
+agent:
+  worker_id: 0                   # for multi-gpus, defaults to single gpu
+  num_workers: 1                 # for multi-gpus, defaults to single gpu
+  skip_existing_predictions: true # set to false in order to force new predictions
+  agent_print_mode: checkpoints  # options: debug, messages, tasks, updates, checkpoints
+
+  max_iterations: 25             # max ReAct loop steps before stopping
+  step_timeout: 900              # seconds per graph step
+  tasks: [1, 2, 3]
+  pids: null
+  limit: null
+  form_fill:
+    max_retries: 3               # validation retries before raising
+  predictor:
+    enabled: false
+
+# --- Logging ---
+logging:
+  level: INFO                    # DEBUG, INFO, WARNING, ERROR
+
+# --- Generation ---
+generation:
+  temperature: 0.0
+  max_new_tokens: 4096
+  max_model_len: 32768           # vLLM context window
+  gpu_memory_utilization: 0.9    # fraction of total VRAM vLLM may use
+  top_p: 1.0
+
+# --- Hydra settings ---
+hydra:
+  run:
+    dir: .
+  job:
+    chdir: false

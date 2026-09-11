@@ -1,0 +1,35 @@
+[
+  {
+    "socket": {
+      "slug": "structured-prompt",
+      "relative_path": "structured-prompt.json",
+      "is_json_kind": true,
+      "is_file_kind": false
+    },
+    "file": null,
+    "image": null,
+    "value": null
+  },
+  {
+    "socket": {
+      "slug": "prostate-modality-level-neural-representations",
+      "relative_path": "prostate-modality-level-neural-representations.json",
+      "is_json_kind": true,
+      "is_file_kind": false
+    },
+    "file": null,
+    "image": null,
+    "value": null
+  },
+  {
+    "socket": {
+      "slug": "prostate-biopsy-decision-clinical-data",
+      "relative_path": "prostate-biopsy-decision-clinical-data.json",
+      "is_json_kind": true,
+      "is_file_kind": false
+    },
+    "file": null,
+    "image": null,
+    "value": null
+  }
+]

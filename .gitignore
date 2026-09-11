@@ -1,0 +1,15 @@
+.env
+.DS_Store
+run.log
+*.tar.gz
+/data/*
+*/embedding_model/*
+/model/llm/*
+.hydra
+*.pyc
+/test/output/*
+evaluation/ground_truth/*
+evaluation/predictions/*
+eval_results/*
+test/outputs/*
+

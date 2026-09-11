@@ -1,0 +1,31 @@
+{
+  "n_cases": 72,
+  "n_splits": 5,
+  "features": [
+    "bx_isup",
+    "pirads",
+    "psa",
+    "age",
+    "ct",
+    "bx_gl_prim",
+    "bx_gl_sec",
+    "comorbidity",
+    "psad"
+  ],
+  "cat_cols": [
+    "bx_isup",
+    "pirads",
+    "ct"
+  ],
+  "classes": [
+    "active_surveillance",
+    "active_treatment",
+    "continued_surveillance"
+  ],
+  "oof_macro_f1": 0.8491129785247432,
+  "oof_weighted_f1": 0.8475879240585122,
+  "oof_confidence_score": 0.9027777777777778,
+  "oof_variable_weight_score": 0.807270622895623,
+  "oof_factor_score": 0.6441808962642297,
+  "estimated_ranking_score": 0.6927220011005244
+}

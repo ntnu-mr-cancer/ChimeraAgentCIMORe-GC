@@ -1,0 +1,143 @@
+{
+  "active_surveillance": {
+    "bx_isup": {
+      "decisive": 0.6666666666666666,
+      "important": 0.3333333333333333
+    },
+    "pirads": {
+      "decisive": 0.25,
+      "important": 0.4,
+      "not_used": 0.1,
+      "noted": 0.25
+    },
+    "psa": {
+      "important": 0.75,
+      "noted": 0.25
+    },
+    "age": {
+      "not_used": 0.2,
+      "important": 0.55,
+      "noted": 0.25
+    },
+    "ct": {
+      "important": 0.45,
+      "noted": 0.35,
+      "not_used": 0.2
+    },
+    "bx_gl_prim": {
+      "important": 0.13333333333333333,
+      "noted": 0.4666666666666667,
+      "not_used": 0.26666666666666666,
+      "decisive": 0.13333333333333333
+    },
+    "bx_gl_sec": {
+      "important": 0.13333333333333333,
+      "noted": 0.5333333333333333,
+      "not_used": 0.2,
+      "decisive": 0.13333333333333333
+    },
+    "comorbidity": {
+      "noted": 0.65,
+      "important": 0.35
+    },
+    "psad": {
+      "important": 0.15,
+      "noted": 0.55,
+      "not_used": 0.3
+    }
+  },
+  "active_treatment": {
+    "bx_isup": {
+      "important": 0.68,
+      "noted": 0.08,
+      "decisive": 0.24
+    },
+    "pirads": {
+      "noted": 0.24,
+      "important": 0.6,
+      "decisive": 0.16
+    },
+    "psa": {
+      "decisive": 0.2,
+      "important": 0.48,
+      "not_used": 0.04,
+      "noted": 0.28
+    },
+    "age": {
+      "important": 0.64,
+      "noted": 0.16,
+      "decisive": 0.2
+    },
+    "ct": {
+      "not_used": 0.08,
+      "important": 0.36,
+      "noted": 0.52,
+      "decisive": 0.04
+    },
+    "bx_gl_prim": {
+      "important": 0.32,
+      "noted": 0.48,
+      "not_used": 0.12,
+      "decisive": 0.08
+    },
+    "bx_gl_sec": {
+      "important": 0.2,
+      "noted": 0.56,
+      "not_used": 0.08,
+      "decisive": 0.16
+    },
+    "comorbidity": {
+      "noted": 0.64,
+      "not_used": 0.16,
+      "important": 0.16,
+      "decisive": 0.04
+    },
+    "psad": {
+      "not_used": 0.32,
+      "noted": 0.56,
+      "important": 0.12
+    }
+  },
+  "continued_surveillance": {
+    "bx_isup": {
+      "important": 1.0
+    },
+    "pirads": {
+      "noted": 0.38461538461538464,
+      "important": 0.5384615384615384,
+      "decisive": 0.07692307692307693
+    },
+    "psa": {
+      "decisive": 0.23076923076923078,
+      "important": 0.6153846153846154,
+      "noted": 0.15384615384615385
+    },
+    "age": {
+      "important": 0.8461538461538461,
+      "decisive": 0.07692307692307693,
+      "noted": 0.07692307692307693
+    },
+    "ct": {
+      "important": 0.6153846153846154,
+      "noted": 0.3076923076923077,
+      "not_used": 0.07692307692307693
+    },
+    "bx_gl_prim": {
+      "important": 1.0
+    },
+    "bx_gl_sec": {
+      "important": 1.0
+    },
+    "comorbidity": {
+      "not_used": 0.07692307692307693,
+      "noted": 0.6923076923076923,
+      "decisive": 0.07692307692307693,
+      "important": 0.15384615384615385
+    },
+    "psad": {
+      "not_used": 0.07692307692307693,
+      "noted": 0.46153846153846156,
+      "important": 0.46153846153846156
+    }
+  }
+}

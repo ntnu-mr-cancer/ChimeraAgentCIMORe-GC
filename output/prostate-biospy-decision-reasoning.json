@@ -1,0 +1,17 @@
+{
+    "free_text": "The decision is driven by the combination of a PI-RADS 4 finding on MRI, a concerning PSA velocity ($2.26 \text{ ng/mL/yr}$), and an elevated PSA level ($5.3 \text{ ng/mL}$), necessitating tissue diagnosis for risk stratification.",
+    "confidence": "clear",
+    "variable_weights": {
+        "bx": "not_used",
+        "fh": "not_used",
+        "age": "not_used",
+        "dre": "not_used",
+        "psa": "important",
+        "vol": "important",
+        "psad": "noted",
+        "cspca": "noted",
+        "pirads": "decisive",
+        "comorbidity": "not_used"
+    },
+    "reveal_sequence": []
+}

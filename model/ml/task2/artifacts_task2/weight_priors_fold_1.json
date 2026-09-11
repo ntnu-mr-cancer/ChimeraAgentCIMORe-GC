@@ -1,0 +1,135 @@
+{
+  "active_surveillance": {
+    "bx_isup": {
+      "important": 0.35294117647058826,
+      "decisive": 0.6470588235294118
+    },
+    "pirads": {
+      "important": 0.5,
+      "decisive": 0.15,
+      "noted": 0.25,
+      "not_used": 0.1
+    },
+    "psa": {
+      "important": 0.75,
+      "noted": 0.25
+    },
+    "age": {
+      "not_used": 0.1,
+      "important": 0.7,
+      "noted": 0.2
+    },
+    "ct": {
+      "noted": 0.35,
+      "important": 0.35,
+      "not_used": 0.3
+    },
+    "bx_gl_prim": {
+      "important": 0.11764705882352941,
+      "noted": 0.4117647058823529,
+      "not_used": 0.35294117647058826,
+      "decisive": 0.11764705882352941
+    },
+    "bx_gl_sec": {
+      "important": 0.058823529411764705,
+      "noted": 0.5294117647058824,
+      "not_used": 0.29411764705882354,
+      "decisive": 0.11764705882352941
+    },
+    "comorbidity": {
+      "noted": 0.5,
+      "important": 0.4,
+      "decisive": 0.05,
+      "not_used": 0.05
+    },
+    "psad": {
+      "noted": 0.55,
+      "important": 0.15,
+      "not_used": 0.3
+    }
+  },
+  "active_treatment": {
+    "bx_isup": {
+      "important": 0.6,
+      "noted": 0.08,
+      "decisive": 0.32
+    },
+    "pirads": {
+      "noted": 0.28,
+      "important": 0.56,
+      "decisive": 0.12,
+      "not_used": 0.04
+    },
+    "psa": {
+      "decisive": 0.16,
+      "important": 0.48,
+      "not_used": 0.04,
+      "noted": 0.32
+    },
+    "age": {
+      "important": 0.52,
+      "noted": 0.24,
+      "decisive": 0.24
+    },
+    "ct": {
+      "not_used": 0.08,
+      "important": 0.36,
+      "decisive": 0.04,
+      "noted": 0.52
+    },
+    "bx_gl_prim": {
+      "important": 0.36,
+      "noted": 0.44,
+      "not_used": 0.08,
+      "decisive": 0.12
+    },
+    "bx_gl_sec": {
+      "important": 0.32,
+      "noted": 0.44,
+      "not_used": 0.08,
+      "decisive": 0.16
+    },
+    "comorbidity": {
+      "noted": 0.6,
+      "important": 0.2,
+      "decisive": 0.08,
+      "not_used": 0.12
+    },
+    "psad": {
+      "not_used": 0.36,
+      "noted": 0.56,
+      "important": 0.08
+    }
+  },
+  "continued_surveillance": {
+    "pirads": {
+      "noted": 0.4166666666666667,
+      "important": 0.5,
+      "decisive": 0.08333333333333333
+    },
+    "psa": {
+      "decisive": 0.3333333333333333,
+      "important": 0.5,
+      "noted": 0.16666666666666666
+    },
+    "age": {
+      "important": 0.8333333333333334,
+      "noted": 0.16666666666666666
+    },
+    "ct": {
+      "important": 0.4166666666666667,
+      "noted": 0.5,
+      "not_used": 0.08333333333333333
+    },
+    "comorbidity": {
+      "not_used": 0.08333333333333333,
+      "noted": 0.75,
+      "important": 0.16666666666666666
+    },
+    "psad": {
+      "not_used": 0.08333333333333333,
+      "noted": 0.5833333333333334,
+      "important": 0.3333333333333333
+    }
+  }
+}

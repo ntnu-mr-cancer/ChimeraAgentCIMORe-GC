@@ -1,0 +1,14 @@
+{
+  "active_surveillance": {
+    "borderline": 0.05,
+    "clear": 0.95
+  },
+  "active_treatment": {
+    "borderline": 0.36,
+    "clear": 0.64
+  },
+  "continued_surveillance": {
+    "clear": 0.9166666666666666,
+    "borderline": 0.08333333333333333
+  }
+}

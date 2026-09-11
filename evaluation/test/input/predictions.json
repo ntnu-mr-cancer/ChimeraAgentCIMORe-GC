@@ -1,0 +1,1994 @@
+[
+  {
+    "pk": "18eee507-14a2-479a-85ab-bb80dc397bed",
+    "url": "https://grand-challenge.org/algorithms/chimera-baseline/jobs/18eee507-14a2-479a-85ab-bb80dc397bed/",
+    "inputs": [
+      {
+        "pk": 3648603,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/5b/3648603/prostate-biopsy-decision-clinical-data.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 982,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-clinical-data",
+          "title": "Prostate Biopsy Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate biopsy decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-clinical-data.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 982,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-clinical-data",
+          "title": "Prostate Biopsy Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate biopsy decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-clinical-data.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648604,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/5c/3648604/prostate-modality-level-neural-representations.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648605,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/5d/3648605/structured-prompt.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "status": "Succeeded",
+    "api_url": "https://grand-challenge.org/api/v1/algorithms/jobs/18eee507-14a2-479a-85ab-bb80dc397bed/",
+    "outputs": [
+      {
+        "pk": 3741348,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/a4/3741348/prostate-biopsy-decision.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 992,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision",
+          "title": "Prostate Biopsy Decision",
+          "super_kind": "File",
+          "description": "Decision to biopsy a prostate (\"yes\"/\"no\").",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 992,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision",
+          "title": "Prostate Biopsy Decision",
+          "super_kind": "File",
+          "description": "Decision to biopsy a prostate (\"yes\"/\"no\").",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3741349,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/a5/3741349/prostate-biopsy-decision-reasoning.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 993,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-reasoning",
+          "title": "Prostate Biopsy Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning behind the biopsy decision, capture in a structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-reasoning.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 993,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-reasoning",
+          "title": "Prostate Biopsy Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning behind the biopsy decision, capture in a structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-reasoning.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "view_content": {},
+    "exec_duration": "P0DT00H03M44.802042S",
+    "algorithm_image": "Algorithm Image 978da3be (SHA256: a7222767, comment: version-06 august)",
+    "invoke_duration": null,
+    "hanging_protocol": null,
+    "optional_hanging_protocols": []
+  },
+  {
+    "pk": "cdea687f-162a-41f9-ae90-d2415b2cfd81",
+    "url": "https://grand-challenge.org/algorithms/chimera-baseline/jobs/cdea687f-162a-41f9-ae90-d2415b2cfd81/",
+    "inputs": [
+      {
+        "pk": 3648557,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/2d/3648557/prostate-biopsy-decision-clinical-data.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 982,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-clinical-data",
+          "title": "Prostate Biopsy Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate biopsy decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-clinical-data.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 982,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-clinical-data",
+          "title": "Prostate Biopsy Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate biopsy decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-clinical-data.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648561,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/31/3648561/prostate-modality-level-neural-representations.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648556,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/2c/3648556/structured-prompt.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "status": "Succeeded",
+    "api_url": "https://grand-challenge.org/api/v1/algorithms/jobs/cdea687f-162a-41f9-ae90-d2415b2cfd81/",
+    "outputs": [
+      {
+        "pk": 3741417,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/e9/3741417/prostate-biopsy-decision.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 992,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision",
+          "title": "Prostate Biopsy Decision",
+          "super_kind": "File",
+          "description": "Decision to biopsy a prostate (\"yes\"/\"no\").",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 992,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision",
+          "title": "Prostate Biopsy Decision",
+          "super_kind": "File",
+          "description": "Decision to biopsy a prostate (\"yes\"/\"no\").",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3741418,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/ea/3741418/prostate-biopsy-decision-reasoning.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 993,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-reasoning",
+          "title": "Prostate Biopsy Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning behind the biopsy decision, capture in a structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-reasoning.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 993,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-reasoning",
+          "title": "Prostate Biopsy Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning behind the biopsy decision, capture in a structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-reasoning.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "view_content": {},
+    "exec_duration": "P0DT00H04M06.410194S",
+    "algorithm_image": "Algorithm Image 978da3be (SHA256: a7222767, comment: version-06 august)",
+    "invoke_duration": null,
+    "hanging_protocol": null,
+    "optional_hanging_protocols": []
+  },
+  {
+    "pk": "ca359997-f79b-496b-b66a-8930e912bd7c",
+    "url": "https://grand-challenge.org/algorithms/chimera-baseline/jobs/ca359997-f79b-496b-b66a-8930e912bd7c/",
+    "inputs": [
+      {
+        "pk": 3648573,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/3d/3648573/prostate-biopsy-decision-clinical-data.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 982,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-clinical-data",
+          "title": "Prostate Biopsy Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate biopsy decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-clinical-data.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 982,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-clinical-data",
+          "title": "Prostate Biopsy Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate biopsy decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-clinical-data.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648582,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/46/3648582/prostate-modality-level-neural-representations.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648575,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/3f/3648575/structured-prompt.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "status": "Succeeded",
+    "api_url": "https://grand-challenge.org/api/v1/algorithms/jobs/ca359997-f79b-496b-b66a-8930e912bd7c/",
+    "outputs": [
+      {
+        "pk": 3741405,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/dd/3741405/prostate-biopsy-decision.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 992,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision",
+          "title": "Prostate Biopsy Decision",
+          "super_kind": "File",
+          "description": "Decision to biopsy a prostate (\"yes\"/\"no\").",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 992,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision",
+          "title": "Prostate Biopsy Decision",
+          "super_kind": "File",
+          "description": "Decision to biopsy a prostate (\"yes\"/\"no\").",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3741406,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/de/3741406/prostate-biopsy-decision-reasoning.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 993,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-reasoning",
+          "title": "Prostate Biopsy Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning behind the biopsy decision, capture in a structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-reasoning.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 993,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-reasoning",
+          "title": "Prostate Biopsy Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning behind the biopsy decision, capture in a structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-reasoning.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "view_content": {},
+    "exec_duration": "P0DT00H03M38.863757S",
+    "algorithm_image": "Algorithm Image 978da3be (SHA256: a7222767, comment: version-06 august)",
+    "invoke_duration": null,
+    "hanging_protocol": null,
+    "optional_hanging_protocols": []
+  },
+  {
+    "pk": "01d875ec-e2ab-4d88-9fbd-9f1ad014aded",
+    "url": "https://grand-challenge.org/algorithms/chimera-baseline/jobs/01d875ec-e2ab-4d88-9fbd-9f1ad014aded/",
+    "inputs": [
+      {
+        "pk": 3648591,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/4f/3648591/prostate-biopsy-decision-clinical-data.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 982,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-clinical-data",
+          "title": "Prostate Biopsy Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate biopsy decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-clinical-data.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 982,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-clinical-data",
+          "title": "Prostate Biopsy Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate biopsy decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-clinical-data.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648592,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/50/3648592/prostate-modality-level-neural-representations.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648593,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/51/3648593/structured-prompt.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "status": "Succeeded",
+    "api_url": "https://grand-challenge.org/api/v1/algorithms/jobs/01d875ec-e2ab-4d88-9fbd-9f1ad014aded/",
+    "outputs": [
+      {
+        "pk": 3741399,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/d7/3741399/prostate-biopsy-decision.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 992,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision",
+          "title": "Prostate Biopsy Decision",
+          "super_kind": "File",
+          "description": "Decision to biopsy a prostate (\"yes\"/\"no\").",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 992,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision",
+          "title": "Prostate Biopsy Decision",
+          "super_kind": "File",
+          "description": "Decision to biopsy a prostate (\"yes\"/\"no\").",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3741400,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/d8/3741400/prostate-biopsy-decision-reasoning.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 993,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-reasoning",
+          "title": "Prostate Biopsy Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning behind the biopsy decision, capture in a structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-reasoning.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 993,
+          "kind": "Anything",
+          "slug": "prostate-biopsy-decision-reasoning",
+          "title": "Prostate Biopsy Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning behind the biopsy decision, capture in a structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-biopsy-decision-reasoning.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "view_content": {},
+    "exec_duration": "P0DT00H03M23.855228S",
+    "algorithm_image": "Algorithm Image 978da3be (SHA256: a7222767, comment: version-06 august)",
+    "invoke_duration": null,
+    "hanging_protocol": null,
+    "optional_hanging_protocols": []
+  },
+  {
+    "pk": "dcc3de62-29d9-4061-bd3e-26b48f83e84d",
+    "url": "https://grand-challenge.org/algorithms/chimera-baseline/jobs/dcc3de62-29d9-4061-bd3e-26b48f83e84d/",
+    "inputs": [
+      {
+        "pk": 3648614,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/66/3648614/prostate-modality-level-neural-representations.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648616,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/68/3648616/prostate-treatment-decision-clinical-data.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 983,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-clinical-data",
+          "title": "Prostate Treatment Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate treatment decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-clinical-data.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 983,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-clinical-data",
+          "title": "Prostate Treatment Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate treatment decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-clinical-data.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648615,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/67/3648615/structured-prompt.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "status": "Succeeded",
+    "api_url": "https://grand-challenge.org/api/v1/algorithms/jobs/dcc3de62-29d9-4061-bd3e-26b48f83e84d/",
+    "outputs": [
+      {
+        "pk": 3741407,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/df/3741407/prostate-treatment-decision.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 994,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision",
+          "title": "Prostate Treatment Decision",
+          "super_kind": "File",
+          "description": "Decision to treat prostate. Any of: active_surveillance / continued_surveillance / active_treatment /watchful_waiting",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 994,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision",
+          "title": "Prostate Treatment Decision",
+          "super_kind": "File",
+          "description": "Decision to treat prostate. Any of: active_surveillance / continued_surveillance / active_treatment /watchful_waiting",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3741408,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/e0/3741408/prostate-treatment-decision-reasoning.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 995,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-reasoning",
+          "title": "Prostate Treatment Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning for the decision on treatment of the prostate. Structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-reasoning.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 995,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-reasoning",
+          "title": "Prostate Treatment Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning for the decision on treatment of the prostate. Structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-reasoning.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "view_content": {},
+    "exec_duration": "P0DT00H03M46.078406S",
+    "algorithm_image": "Algorithm Image 978da3be (SHA256: a7222767, comment: version-06 august)",
+    "invoke_duration": null,
+    "hanging_protocol": null,
+    "optional_hanging_protocols": []
+  },
+  {
+    "pk": "2ac5b378-567b-4c18-8ca6-9e0cbd19783c",
+    "url": "https://grand-challenge.org/algorithms/chimera-baseline/jobs/2ac5b378-567b-4c18-8ca6-9e0cbd19783c/",
+    "inputs": [
+      {
+        "pk": 3648618,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/6a/3648618/prostate-modality-level-neural-representations.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648617,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/69/3648617/prostate-treatment-decision-clinical-data.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 983,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-clinical-data",
+          "title": "Prostate Treatment Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate treatment decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-clinical-data.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 983,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-clinical-data",
+          "title": "Prostate Treatment Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate treatment decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-clinical-data.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648628,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/74/3648628/structured-prompt.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "status": "Succeeded",
+    "api_url": "https://grand-challenge.org/api/v1/algorithms/jobs/2ac5b378-567b-4c18-8ca6-9e0cbd19783c/",
+    "outputs": [
+      {
+        "pk": 3741412,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/e4/3741412/prostate-treatment-decision.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 994,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision",
+          "title": "Prostate Treatment Decision",
+          "super_kind": "File",
+          "description": "Decision to treat prostate. Any of: active_surveillance / continued_surveillance / active_treatment /watchful_waiting",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 994,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision",
+          "title": "Prostate Treatment Decision",
+          "super_kind": "File",
+          "description": "Decision to treat prostate. Any of: active_surveillance / continued_surveillance / active_treatment /watchful_waiting",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3741413,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/e5/3741413/prostate-treatment-decision-reasoning.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 995,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-reasoning",
+          "title": "Prostate Treatment Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning for the decision on treatment of the prostate. Structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-reasoning.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 995,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-reasoning",
+          "title": "Prostate Treatment Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning for the decision on treatment of the prostate. Structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-reasoning.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "view_content": {},
+    "exec_duration": "P0DT00H03M51.272103S",
+    "algorithm_image": "Algorithm Image 978da3be (SHA256: a7222767, comment: version-06 august)",
+    "invoke_duration": null,
+    "hanging_protocol": null,
+    "optional_hanging_protocols": []
+  },
+  {
+    "pk": "83f6be0d-ae31-48f9-b212-75d429a44b8c",
+    "url": "https://grand-challenge.org/algorithms/chimera-baseline/jobs/83f6be0d-ae31-48f9-b212-75d429a44b8c/",
+    "inputs": [
+      {
+        "pk": 3648634,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/7a/3648634/prostate-modality-level-neural-representations.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648638,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/7e/3648638/prostate-treatment-decision-clinical-data.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 983,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-clinical-data",
+          "title": "Prostate Treatment Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate treatment decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-clinical-data.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 983,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-clinical-data",
+          "title": "Prostate Treatment Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate treatment decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-clinical-data.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648639,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/7f/3648639/structured-prompt.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "status": "Succeeded",
+    "api_url": "https://grand-challenge.org/api/v1/algorithms/jobs/83f6be0d-ae31-48f9-b212-75d429a44b8c/",
+    "outputs": [
+      {
+        "pk": 3741422,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/ee/3741422/prostate-treatment-decision.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 994,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision",
+          "title": "Prostate Treatment Decision",
+          "super_kind": "File",
+          "description": "Decision to treat prostate. Any of: active_surveillance / continued_surveillance / active_treatment /watchful_waiting",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 994,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision",
+          "title": "Prostate Treatment Decision",
+          "super_kind": "File",
+          "description": "Decision to treat prostate. Any of: active_surveillance / continued_surveillance / active_treatment /watchful_waiting",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3741423,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/ef/3741423/prostate-treatment-decision-reasoning.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 995,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-reasoning",
+          "title": "Prostate Treatment Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning for the decision on treatment of the prostate. Structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-reasoning.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 995,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-reasoning",
+          "title": "Prostate Treatment Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning for the decision on treatment of the prostate. Structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-reasoning.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "view_content": {},
+    "exec_duration": "P0DT00H04M30.858341S",
+    "algorithm_image": "Algorithm Image 978da3be (SHA256: a7222767, comment: version-06 august)",
+    "invoke_duration": null,
+    "hanging_protocol": null,
+    "optional_hanging_protocols": []
+  },
+  {
+    "pk": "378162c4-cb94-40ba-9188-6a5dede906ec",
+    "url": "https://grand-challenge.org/algorithms/chimera-baseline/jobs/378162c4-cb94-40ba-9188-6a5dede906ec/",
+    "inputs": [
+      {
+        "pk": 3648640,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/80/3648640/prostate-modality-level-neural-representations.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648642,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/82/3648642/prostate-treatment-decision-clinical-data.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 983,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-clinical-data",
+          "title": "Prostate Treatment Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate treatment decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-clinical-data.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 983,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-clinical-data",
+          "title": "Prostate Treatment Decision Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for prostate treatment decision making",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-clinical-data.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648641,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/81/3648641/structured-prompt.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "status": "Succeeded",
+    "api_url": "https://grand-challenge.org/api/v1/algorithms/jobs/378162c4-cb94-40ba-9188-6a5dede906ec/",
+    "outputs": [
+      {
+        "pk": 3741415,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/e7/3741415/prostate-treatment-decision.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 994,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision",
+          "title": "Prostate Treatment Decision",
+          "super_kind": "File",
+          "description": "Decision to treat prostate. Any of: active_surveillance / continued_surveillance / active_treatment /watchful_waiting",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 994,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision",
+          "title": "Prostate Treatment Decision",
+          "super_kind": "File",
+          "description": "Decision to treat prostate. Any of: active_surveillance / continued_surveillance / active_treatment /watchful_waiting",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3741416,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/e8/3741416/prostate-treatment-decision-reasoning.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 995,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-reasoning",
+          "title": "Prostate Treatment Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning for the decision on treatment of the prostate. Structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-reasoning.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 995,
+          "kind": "Anything",
+          "slug": "prostate-treatment-decision-reasoning",
+          "title": "Prostate Treatment Decision Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning for the decision on treatment of the prostate. Structured format.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-treatment-decision-reasoning.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "view_content": {},
+    "exec_duration": "P0DT00H04M02.195424S",
+    "algorithm_image": "Algorithm Image 978da3be (SHA256: a7222767, comment: version-06 august)",
+    "invoke_duration": null,
+    "hanging_protocol": null,
+    "optional_hanging_protocols": []
+  },
+  {
+    "pk": "1113e58d-de2f-430a-803c-316b902db172",
+    "url": "https://grand-challenge.org/algorithms/chimera-baseline/jobs/1113e58d-de2f-430a-803c-316b902db172/",
+    "inputs": [
+      {
+        "pk": 3648699,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/bb/3648699/prostate-modality-level-neural-representations.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648700,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/bc/3648700/prostate-time-to-recurrence-or-last-follow-up-clinical-data.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 984,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-clin",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for predicting time (months) to either recurrence or last follow up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-clinical-data.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 984,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-clin",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for predicting time (months) to either recurrence or last follow up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-clinical-data.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648701,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/bd/3648701/structured-prompt.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "status": "Succeeded",
+    "api_url": "https://grand-challenge.org/api/v1/algorithms/jobs/1113e58d-de2f-430a-803c-316b902db172/",
+    "outputs": [
+      {
+        "pk": 3741410,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/e2/3741410/prostate-time-to-recurrence-or-last-follow-up.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 991,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up",
+          "title": "Prostate Time To Recurrence or Last Follow-Up",
+          "super_kind": "File",
+          "description": "Report on months to recurrence (or last follow-up) together with event (0/1).",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 991,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up",
+          "title": "Prostate Time To Recurrence or Last Follow-Up",
+          "super_kind": "File",
+          "description": "Report on months to recurrence (or last follow-up) together with event (0/1).",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3741409,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/e1/3741409/prostate-time-to-recurrence-or-last-follow-up-reasoning.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 990,
+          "kind": "String",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-reas",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning that is used to predict the months to recurrence or last follow-up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-reasoning.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 990,
+          "kind": "String",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-reas",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning that is used to predict the months to recurrence or last follow-up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-reasoning.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "view_content": {},
+    "exec_duration": "P0DT00H03M49.739144S",
+    "algorithm_image": "Algorithm Image 978da3be (SHA256: a7222767, comment: version-06 august)",
+    "invoke_duration": null,
+    "hanging_protocol": null,
+    "optional_hanging_protocols": []
+  },
+  {
+    "pk": "ebc3272c-9a13-43d5-aa7d-60918125797e",
+    "url": "https://grand-challenge.org/algorithms/chimera-baseline/jobs/ebc3272c-9a13-43d5-aa7d-60918125797e/",
+    "inputs": [
+      {
+        "pk": 3648704,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/c0/3648704/prostate-modality-level-neural-representations.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648707,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/c3/3648707/prostate-time-to-recurrence-or-last-follow-up-clinical-data.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 984,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-clin",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for predicting time (months) to either recurrence or last follow up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-clinical-data.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 984,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-clin",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for predicting time (months) to either recurrence or last follow up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-clinical-data.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648708,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/c4/3648708/structured-prompt.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "status": "Succeeded",
+    "api_url": "https://grand-challenge.org/api/v1/algorithms/jobs/ebc3272c-9a13-43d5-aa7d-60918125797e/",
+    "outputs": [
+      {
+        "pk": 3741398,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/d6/3741398/prostate-time-to-recurrence-or-last-follow-up.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 991,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up",
+          "title": "Prostate Time To Recurrence or Last Follow-Up",
+          "super_kind": "File",
+          "description": "Report on months to recurrence (or last follow-up) together with event (0/1).",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 991,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up",
+          "title": "Prostate Time To Recurrence or Last Follow-Up",
+          "super_kind": "File",
+          "description": "Report on months to recurrence (or last follow-up) together with event (0/1).",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3741397,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/d5/3741397/prostate-time-to-recurrence-or-last-follow-up-reasoning.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 990,
+          "kind": "String",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-reas",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning that is used to predict the months to recurrence or last follow-up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-reasoning.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 990,
+          "kind": "String",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-reas",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning that is used to predict the months to recurrence or last follow-up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-reasoning.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "view_content": {},
+    "exec_duration": "P0DT00H03M21.994027S",
+    "algorithm_image": "Algorithm Image 978da3be (SHA256: a7222767, comment: version-06 august)",
+    "invoke_duration": null,
+    "hanging_protocol": null,
+    "optional_hanging_protocols": []
+  },
+  {
+    "pk": "c1d0a527-5c96-4d18-acb7-e2516e32e565",
+    "url": "https://grand-challenge.org/algorithms/chimera-baseline/jobs/c1d0a527-5c96-4d18-acb7-e2516e32e565/",
+    "inputs": [
+      {
+        "pk": 3648717,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/cd/3648717/prostate-modality-level-neural-representations.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648720,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/d0/3648720/prostate-time-to-recurrence-or-last-follow-up-clinical-data.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 984,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-clin",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for predicting time (months) to either recurrence or last follow up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-clinical-data.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 984,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-clin",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for predicting time (months) to either recurrence or last follow up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-clinical-data.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648718,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/ce/3648718/structured-prompt.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "status": "Succeeded",
+    "api_url": "https://grand-challenge.org/api/v1/algorithms/jobs/c1d0a527-5c96-4d18-acb7-e2516e32e565/",
+    "outputs": [
+      {
+        "pk": 3741404,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/dc/3741404/prostate-time-to-recurrence-or-last-follow-up.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 991,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up",
+          "title": "Prostate Time To Recurrence or Last Follow-Up",
+          "super_kind": "File",
+          "description": "Report on months to recurrence (or last follow-up) together with event (0/1).",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 991,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up",
+          "title": "Prostate Time To Recurrence or Last Follow-Up",
+          "super_kind": "File",
+          "description": "Report on months to recurrence (or last follow-up) together with event (0/1).",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3741403,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/db/3741403/prostate-time-to-recurrence-or-last-follow-up-reasoning.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 990,
+          "kind": "String",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-reas",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning that is used to predict the months to recurrence or last follow-up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-reasoning.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 990,
+          "kind": "String",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-reas",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning that is used to predict the months to recurrence or last follow-up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-reasoning.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "view_content": {},
+    "exec_duration": "P0DT00H03M31.264937S",
+    "algorithm_image": "Algorithm Image 978da3be (SHA256: a7222767, comment: version-06 august)",
+    "invoke_duration": null,
+    "hanging_protocol": null,
+    "optional_hanging_protocols": []
+  },
+  {
+    "pk": "538b7e4a-01b0-4592-a216-718a6c1190c2",
+    "url": "https://grand-challenge.org/algorithms/chimera-baseline/jobs/538b7e4a-01b0-4592-a216-718a6c1190c2/",
+    "inputs": [
+      {
+        "pk": 3648728,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/d8/3648728/prostate-modality-level-neural-representations.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 981,
+          "kind": "Anything",
+          "slug": "prostate-modality-level-neural-representations",
+          "title": "Prostate Modality-Level Neural Representations",
+          "super_kind": "File",
+          "description": "A collection of optional neural representations of prostate-related modalities. Contains \"MRI image\", \"Biopsy slide\" and/or \"Prostatectomy slide\". Each modality is an array with 0 or more representations. Within a representation there are always the same number of features.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-modality-level-neural-representations.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648730,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/da/3648730/prostate-time-to-recurrence-or-last-follow-up-clinical-data.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 984,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-clin",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for predicting time (months) to either recurrence or last follow up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-clinical-data.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 984,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-clin",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Clinical Data",
+          "super_kind": "File",
+          "description": "Clinical data that is relevant for predicting time (months) to either recurrence or last follow up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-clinical-data.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3648729,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/ac/d9/3648729/structured-prompt.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 980,
+          "kind": "Anything",
+          "slug": "structured-prompt",
+          "title": "Structured Prompt",
+          "super_kind": "File",
+          "description": "A (JSON) structured prompt that orchestrates an algorithm.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "structured-prompt.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "status": "Succeeded",
+    "api_url": "https://grand-challenge.org/api/v1/algorithms/jobs/538b7e4a-01b0-4592-a216-718a6c1190c2/",
+    "outputs": [
+      {
+        "pk": 3741402,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/da/3741402/prostate-time-to-recurrence-or-last-follow-up.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 991,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up",
+          "title": "Prostate Time To Recurrence or Last Follow-Up",
+          "super_kind": "File",
+          "description": "Report on months to recurrence (or last follow-up) together with event (0/1).",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 991,
+          "kind": "Anything",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up",
+          "title": "Prostate Time To Recurrence or Last Follow-Up",
+          "super_kind": "File",
+          "description": "Report on months to recurrence (or last follow-up) together with event (0/1).",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up.json",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 3741401,
+        "file": "https://grand-challenge.org/media/components/componentinterfacevalue/16/d9/3741401/prostate-time-to-recurrence-or-last-follow-up-reasoning.json",
+        "image": null,
+        "value": null,
+        "socket": {
+          "pk": 990,
+          "kind": "String",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-reas",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning that is used to predict the months to recurrence or last follow-up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-reasoning.json",
+          "overlay_segments": []
+        },
+        "interface": {
+          "pk": 990,
+          "kind": "String",
+          "slug": "prostate-time-to-recurrence-or-last-follow-up-reas",
+          "title": "Prostate Time to Recurrence or Last Follow-Up Reasoning",
+          "super_kind": "File",
+          "description": "Reasoning that is used to predict the months to recurrence or last follow-up.",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "prostate-time-to-recurrence-or-last-follow-up-reasoning.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "view_content": {},
+    "exec_duration": "P0DT00H03M33.436147S",
+    "algorithm_image": "Algorithm Image 978da3be (SHA256: a7222767, comment: version-06 august)",
+    "invoke_duration": null,
+    "hanging_protocol": null,
+    "optional_hanging_protocols": []
+  }
+]
